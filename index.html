@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-search">
+                <i data-feather="search" width="30" height="30"></i>
+                <label for="dashboard-search"></label>
+                <input type="search" name="dashboard-search" id="dashboard-search">
+            </div>  
+            <div class="header-menu">
+                <div class="header-menu-notifications"><i data-feather="bell" width="25"
+                    height="25"></i></div>
+                <div class="header-menu-icon user-icon"><i data-feather="user" width="30"
+                    height="30"></i></div>
+                <p class="header-menu-user">Alan Jones</p>
+            </div>
+            <div class="header-welcome">
+                <div class="header-welcome-icon user-icon"><i data-feather="user" width="60" height="60"></i></div>
+                <div class="header-welcome-text">Hi there,</div>
+                <div class="header-welcome-title">Alan Jones (@alan)</div>
+            </div>
+            <div class="header-actions">
+                <button class="header-actions-button" id="new">New</button>
+                <button class="header-actions-button" id="upload">Upload</button>
+                <button class="header-actions-button" id="share">Share</button>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="sidebar-logo">Dashboard</div>
+            <div class="sidebar-menu">
+                <ul class="sidebar-menu-list">
+                    <li>Home</li>
+                    <li>Profile</li>
+                    <li>Messages</li>
+                    <li>Lists</li>
+                    <li>Tasks</li>
+                    <li>Communities</li>
+                </ul>
+                <ul class="sidebar-menu-options">
+                    <li>Settings</li>
+                    <li>Support</li>
+                    <li>Privacy</li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            
+            <div class="main-cards">
+                <div class="cards-title title" >Projects</div>
+                <div class="project-card">
+                    <h1>Important project</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, modi suscipit nihil odio ut reiciendis sapiente quae</p>
+                    <div class="card-icons">
+                       <i data-feather="star"></i>
+                       <i data-feather="eye"></i>
+                       <i data-feather="share-2"></i>
+                    </div>
+                </div> 
+                <div class="project-card">
+                    <h1>Important project</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, modi suscipit nihil odio ut reiciendis sapiente quae</p>
+                    <div class="card-icons">
+                       <i data-feather="star"></i>
+                       <i data-feather="eye"></i>
+                       <i data-feather="share-2"></i>
+                    </div>
+                </div> 
+                <div class="project-card">
+                    <h1>Important project</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, modi suscipit nihil odio ut reiciendis sapiente quae</p>
+                    <div class="card-icons">
+                       <i data-feather="star"></i>
+                       <i data-feather="eye"></i>
+                       <i data-feather="share-2"></i>
+                    </div>
+                </div> 
+                <div class="project-card">
+                    <h1>Important project</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, modi suscipit nihil odio ut reiciendis sapiente quae</p>
+                    <div class="card-icons">
+                       <i data-feather="star"></i>
+                       <i data-feather="eye"></i>
+                       <i data-feather="share-2"></i>
+                    </div>
+                </div> 
+                <div class="project-card">
+                    <h1>Important project</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, modi suscipit nihil odio ut reiciendis sapiente quae</p>
+                    <div class="card-icons">
+                       <i data-feather="star"></i>
+                       <i data-feather="eye"></i>
+                       <i data-feather="share-2"></i>
+                    </div>
+                </div> 
+                <div class="project-card">
+                    <h1>Important project</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, modi suscipit nihil odio ut reiciendis sapiente quae</p>
+                    <div class="card-icons">
+                       <i data-feather="star" class="card-icon"></i>
+                       <i data-feather="eye" class="card-icon"></i>
+                       <i data-feather="share-2" class="card-icon"></i>
+                    </div>
+                </div> 
+                
+            </div>
+            
+            <div class="main-feed">
+                <div class="announcements-title title">Announcements</div>
+                <div class="main-feed-announcements-card feed-card" id="announcements-card">
+                    <h2>Site maintenance</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, modi suscipit nihil odio ut reiciendis sapiente quae</p>
+                    <hr>
+                    <h2>Site maintenance</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, modi suscipit nihil odio ut reiciendis sapiente quae</p>
+                    <hr>
+                    <h2>Site maintenance</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, modi suscipit nihil odio ut reiciendis sapiente quae</p>
+                </div>
+                <div class="trending-title title">Trending</div>
+                <div class="main-feed-trending-card feed-card" id="trending-card">
+                    <div class="first-trending trending">
+                        <div class="header-menu-icon user-icon trending-icon"><i data-feather="user" width="30"
+                            height="30"></i></div>
+                            <h2>@rory</h2>
+                            <p>Changing the world one day at a time</p>
+                    </div>
+                    <div class="second-trending trending">
+                        <div class="header-menu-icon user-icon trending-icon"><i data-feather="user" width="30"
+                            height="30"></i></div>
+                            <h2 class="trending-name">@bill</h2>
+                            <p class="trending-text">Being the change, day by day</p>
+                    </div>
+                    <div class="third-trending trending">
+                        <div class="header-menu-icon user-icon trending-icon"><i data-feather="user" width="30"
+                            height="30"></i></div>
+                            <h2 class="trending-name">@mary</h2>
+                            <p class="trending-text">each day I am making the change</p>
+                    </div>
+                    <div class="fourth-trending trending">
+                        <div class="header-menu-icon user-icon trending-icon"><i data-feather="user" width="30"
+                            height="30"></i></div>
+                            <h2 class="trending-name">@stuart</h2>
+                            <p class="trending-text">The change is coming daily</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
